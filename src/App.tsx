@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Cart, { cart } from './Cart';
+import Cart, {cart} from './Cart';
 
 const cart1: cart = {
   name: 'Cart 1',
@@ -113,11 +113,14 @@ const cart3: cart = {
 
 function App() {
   return (
-    <div className="App">
-      <Cart inputCart={cart1} />
-      <Cart inputCart={cart2} />
-      <Cart inputCart={cart3} />
-    </div>
+    <>
+      <h1 className="Title">Cartsy</h1>
+      <div className="App">
+        <Cart inputCart={cart1}/>
+        <Cart inputCart={cart2}/>
+        <Cart inputCart={cart3}/>
+      </div>
+    </>
   );
 }
 
