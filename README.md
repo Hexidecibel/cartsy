@@ -16,7 +16,7 @@ After Building in Production mode, you can run it locally with serve.  If you do
     
 Then this command will run the production build:
 
-    server -s build
+    serve -s build
     
 ## The Problem
 
