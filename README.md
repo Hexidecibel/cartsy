@@ -18,16 +18,15 @@ Then this command will run the production build:
 
     server -s build
     
-##The Problem
+## The Problem
 
 For this exercise you'll be creating a Javascript web application that solves the problem below.  The application can be using your framework of choice.  Feel free to use a package manager, WebPack,  and any other libraries you'd like.  
 
 Include in the package or GitHub a doc or Readme with instructions on how to build it, run it, and proof that it can solve the following scenarios by reading the supplied input and producing the required output. We usually expect a solution within 3 days.
  
-###SALES TAXES
+### Sales Taxes
  
 Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical products that are exempt. Import duty is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions.
-
 
 The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains
 (np/100 rounded up to the nearest 0.05) amount of sales tax.
@@ -36,7 +35,7 @@ When I purchase items I receive a receipt which lists the name of all the items 
 
 Write an application that accepts inputs like below and print out out the receipt details for these shopping baskets.  The input & output can be in any format you want: JSON, CSV, etc but do not hard code the input or output.  
 
-####INPUT:
+#### Inputs:
  
 Input 1:\
 1 book at 12.49\
@@ -53,8 +52,8 @@ Input 3:\
 1 packet of headache pills at 9.75\
 1 imported box of chocolates at 11.25
  
-Expected Output
- 
+#### Expected Outputs:
+
 Output 1:\
 1 book : 12.49\
 1 music CD: 16.49\
