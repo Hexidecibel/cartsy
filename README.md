@@ -1,5 +1,7 @@
 ## Sales Tax Calculator
 
+Solved with: React, Typescript, NPM, WebPack
+
 To run the app locally in Development mode:
 
     npm start
